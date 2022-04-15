@@ -1,0 +1,9 @@
+{
+  "baseUrl": "https://wj-qa-automation-test.github.io",
+
+  "viewportWidth":1280,
+  "viewportHeight":720,
+  
+  "defaultCommandTimeout":5000
+
+}
