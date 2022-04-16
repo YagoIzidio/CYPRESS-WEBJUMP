@@ -1,16 +1,3 @@
-
-	•	Node.js v16.14.2 
-	•	npm v8.5.0
-
-  https://nodejs.org/en/
-
-install -D cypress-iframe
-
-
-npm install -D cypress-xpath
-
-
-
 # Minha configuração
 
 - O.S = macOS Big Sur 11.6.5
@@ -27,25 +14,21 @@ npm install -D cypress-xpath
 
 # Sua configuração
 
-- Chrome = Recomendo manter a ultima versão instável - (Clicar em `configurações` , `Sobre o Google Chrome` e verificar a ultima versão disponível)
+- Chrome = No navegador clicar em `configurações` , `Sobre o Google Chrome` e instalar a ultima versão disponível
 
-- Instalar o NodeJS , ao instalar já vem junto a versão do NPM = para Windons e mac o executáel no site `https://nodejs.org/en/`
+- NodeJS + NPM = baixar e instalar o executável no site `https://nodejs.org/en/`, ao instalar o Node, já vem junto a versão do NPM
 
-- Iniciar a estrutura dentro da pastas = `npm init` e responder as pergunta para criação do package.json
+- Com o projeto clonado, iremos abrir o terminal do VS Code e executar o comando: `npm install`, que é o comando para instalar o Cypress no nosso projeto. em seguida, será possível visualizar a versão instalada do framework no arquivo package.json
 
 
 
-- Após a instalação do bundler executar o comando `bundler install` para atualizar e instalar todas as bibliotecas presente no arquivo Gemfile
 
-_ATENÇÃO: No arquivo Gemfile do projeto já está adicionado a `gem` do chromedriver, a mesma gerencia toda a questão dos drivers em tempo de execução, fazendo tudo o que tem que fazer pro driver funcionar._
 
 **Após isso, apenas executar os comandos abaixo para rodar o projeto:**
 
-- `cucumber` para rodar tudo
-- `cucumber -t @cenario1` para rodar a primeira tarefa do exercicio
-- `cucumber -t @cenario2` para rodar a segunda tarefa do exercicio
-- `cucumber -t @cenario3` para rodar a terceira tarefa do exercicio
+- `npm run cypress:open` para rodar via interface 
+- `npm run cypress:log` para rodar via terminal em logs
+
 
 **Não ficou claro qual dos campos automatizar na terceira tarefa, com isso fiz um quarto cenário automatizando os IFRAMES**
 
-- `cucumber -t @cenario4` para rodar a quarta tarefa do exercicio
