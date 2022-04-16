@@ -14,14 +14,11 @@
 
 # Sua configuração
 
-- Chrome = No navegador clicar em `configurações` , `Sobre o Google Chrome` e instalar a ultima versão disponível
+- Chrome = No navegador clicar em `configurações` , `Sobre o Google Chrome` e instalar a ultima versão disponível 
 
-- NodeJS + NPM = baixar e instalar o executável no site `https://nodejs.org/en/`, ao instalar o Node, já vem junto a versão do NPM
+- NodeJS + NPM = Ao instalar o Node, já vem junto a versão do NPM. Para Windows e MAC baixar e instalar o executável no site `https://nodejs.org/en/`, para linux rodar o comando `sudo apt-get install nodejs`
 
-- Com o projeto clonado, iremos abrir o terminal do VS Code e executar o comando: `npm install`, que é o comando para instalar o Cypress no nosso projeto. em seguida, será possível visualizar a versão instalada do framework no arquivo package.json
-
-
-
+- Com o projeto clonado e aberto no VSCode, iremos abrir o terminal do VS Code e executar o comando: `npm install`, para baixar e atualizar todas as dependencias do projeto
 
 
 **Após isso, apenas executar os comandos abaixo para rodar o projeto:**
