@@ -10,8 +10,6 @@
 
 - Chrome = Versão 100.0.4896.75
 
-
-
 # Sua configuração
 
 - Chrome = No navegador clicar em `configurações` , `Sobre o Google Chrome` e instalar a ultima versão disponível 
@@ -27,5 +25,4 @@
 - `npm run cypress:log` para rodar via terminal em logs
 
 
-**Não ficou claro qual dos campos automatizar na terceira tarefa, com isso fiz um quarto cenário automatizando os IFRAMES**
 
