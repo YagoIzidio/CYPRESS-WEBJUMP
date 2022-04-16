@@ -16,7 +16,7 @@
 
 - NodeJS + NPM = Ao instalar o Node, já vem junto a versão do NPM. Para Windows e MAC baixar e instalar o executável no site `https://nodejs.org/en/`, para linux rodar o comando `sudo apt-get install nodejs`
 
-- Com o projeto clonado e aberto no VSCode, iremos abrir o terminal do VS Code e executar o comando: `npm install`, para baixar todas as dependências corretas do projeto
+- Com o projeto clonado e aberto no VSCode, iremos abrir o terminal do VSCode e executar o comando: `npm install`, para baixar todas as dependências corretas do projeto
 
 
 **Após isso, apenas executar os comandos abaixo para rodar o projeto:**
